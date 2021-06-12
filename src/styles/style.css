@@ -1,1 +1,61 @@
 /** CSS STYLE **/
+.cl-white {
+    color: white;
+}
+
+.cl-tr-white {
+    color: #d7ccc0;
+}
+
+.cl-light {
+    color: #f5f4f0;
+}
+
+.cl-orange {
+    color: #fe8a02;
+}
+
+.cl-dark {
+    color: #2a2626
+}
+
+.cl-tr-dark {
+    color: #908d8b;
+}
+
+.cl-brown {
+    color: #b09a81;
+}
+
+.cl-blue {
+    color: #1085c5;
+}
+
+body {
+    font: 16px/1.6em 'Open Sans';
+    color: #2A2626;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Neucha';
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+header, section {
+    max-width: 1110px;
+    text-align: center;
+    padding: 100px 0;
+    margin: auto;
+}

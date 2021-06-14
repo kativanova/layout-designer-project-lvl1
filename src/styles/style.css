@@ -1,61 +1,128 @@
 /** CSS STYLE **/
 .cl-white {
-    color: white;
+  color: white;
 }
 
 .cl-tr-white {
-    color: #d7ccc0;
+  color: #d7ccc0;
 }
 
 .cl-light {
-    color: #f5f4f0;
+  color: #f5f4f0;
 }
 
 .cl-orange {
-    color: #fe8a02;
+  color: #fe8a02;
 }
 
 .cl-dark {
-    color: #2a2626
+  color: #2a2626;
 }
 
 .cl-tr-dark {
-    color: #908d8b;
+  color: #908d8b;
 }
 
 .cl-brown {
-    color: #b09a81;
+  color: #b09a81;
 }
 
 .cl-blue {
-    color: #1085c5;
+  color: #1085c5;
 }
 
 body {
-    font: 16px/1.6em 'Open Sans';
-    color: #2A2626;
+  margin: 0;
+  font: 16px/1.6em "Open Sans";
+  color: #2a2626;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Neucha';
-    line-height: 1.2em;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Neucha";
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0;
 }
 
 h1 {
-    font-size: 72px;
+  position: relative;
+  font-size: 72px;
 }
 
 h2 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 h3 {
-    font-size: 34px;
+  font-size: 34px;
 }
 
-header, section {
-    max-width: 1110px;
-    text-align: center;
-    padding: 100px 0;
-    margin: auto;
+header,
+section {
+  text-align: center;
+  overflow: hidden;
+}
+
+.light-background {
+  background-color: #f5f4f0;
+}
+.container {
+  position: relative;
+  text-align: left;
+  max-width: 1110px;
+  padding: 100px 0;
+  margin: auto;
+}
+
+.light-background::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 10%;
+}
+
+.main-image {
+  position: absolute;
+  height: 525px;
+  top: 55px;
+  right: -270px;
+}
+
+.columns-2 {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.columns-2 p {
+  margin-top: 0;
+}
+
+.left-column,
+.right-column {
+  break-inside: avoid;
+}
+
+.description {
+  margin-top: 185px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: #fe8a02;
+}
+
+.mb-51 {
+  margin-bottom: 51px;
 }

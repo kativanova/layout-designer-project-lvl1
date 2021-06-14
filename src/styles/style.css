@@ -147,3 +147,39 @@ section {
 .intro {
   margin-bottom: -200px;
 }
+
+.navigation {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navigation h2 {
+  font-size: 52px;
+}
+
+.navigation .card {
+  padding: 24px;
+  box-sizing: border-box;
+  width: 350px;
+  background-color: #F5F4F0;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.navigation .title-card {
+  padding: 0px;
+  background-color: #42413C;
+}
+
+.navigation .number {
+  font: 64px/1em "Neucha";
+  margin: 0 0 40px 0;
+}
+
+.navigation h3 {
+  color: #fe8a02;
+}

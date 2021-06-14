@@ -64,20 +64,23 @@ h3 {
 header,
 section {
   text-align: center;
-  overflow: hidden;
+  position: relative;
 }
 
 .light-background {
   background-color: #f5f4f0;
+  overflow: hidden;
 }
 .container {
   position: relative;
-  text-align: left;
   max-width: 1110px;
   padding: 100px 0;
   margin: auto;
 }
 
+.text-align-left {
+  text-align: left;
+}
 .light-background::before {
   content: " ";
   position: absolute;
@@ -125,4 +128,22 @@ section {
 
 .mb-51 {
   margin-bottom: 51px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.video {
+  position:relative;
+  z-index: 1;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.dark-background {
+  background-color: #42413C;
+}
+
+.intro {
+  margin-bottom: -200px;
 }

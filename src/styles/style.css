@@ -35,7 +35,7 @@ body {
   margin: 0;
 
   color: #2a2626;
-  font: 16px/1.6em 'Open Sans', sans-serif;
+  font: 16px/1.6em "Open Sans", sans-serif;
 }
 
 h1,
@@ -45,8 +45,10 @@ h4,
 h5 {
   margin: 0;
 
+  color: #fe8a02;
+
   font-weight: normal;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   line-height: 1.2em;
 }
 
@@ -64,32 +66,27 @@ h3 {
   font-size: 34px;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 header,
 section {
   position: relative;
 
-  text-align: center;
-}
-
-.light-background {
-  overflow: hidden;
-
-  background-color: #f5f4f0;
-}
-
-.container {
-  position: relative;
-
-  max-width: 1110px;
-  margin: auto;
-  padding: 100px 0;
-}
-
-.text-align-left {
   text-align: left;
 }
 
-.light-background::before {
+.balck-background {
+  background-color: #42413c;
+}
+
+.image-background {
+  overflow: hidden;
+}
+
+.image-background::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -105,6 +102,26 @@ section {
   content: " ";
 }
 
+.light {
+  background-color: #f5f4f0;
+}
+
+.dark {
+  background-color: #b09a81;
+}
+
+.detail-sections.dark {
+  color: #fff;
+}
+
+.container {
+  position: relative;
+
+  max-width: 1110px;
+  margin: auto;
+  padding: 100px 0;
+}
+
 .main-image {
   position: absolute;
   top: 55px;
@@ -118,8 +135,13 @@ section {
   column-gap: 30px;
 }
 
-.columns-2 p {
+.columns-2 .right-column p,
+.columns-2 .left-column p {
   margin-top: 0;
+}
+
+.column-breake {
+  break-after: column;
 }
 
 .left-column,
@@ -155,12 +177,10 @@ section {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.dark-background {
-  background-color: #42413c;
-}
-
 .intro {
   margin-bottom: -200px;
+
+  text-align: center;
 }
 
 .navigation {
@@ -200,4 +220,57 @@ section {
 
 .navigation h3 {
   color: #fe8a02;
+}
+
+.pre-header {
+  margin: 0;
+
+  font: 24px/1em "Neucha", cursive;
+}
+
+.section-description {
+  margin-top: 30px;
+
+  font: 34px/1.2em "Neucha", cursive;
+}
+
+.section-image {
+  vertical-align: middle;
+}
+
+.detail-sections.light .section-header h2 {
+  color: #2a2626;
+}
+
+.detail-sections.dark .section-header h2 {
+  color: #fff;
+}
+
+.detail-sections h3 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+
+  font: bold 14px/1.2em "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.detail-sections.light h3 {
+  color: #fff;
+
+  background: #b09a81;
+}
+
+.detail-sections.dark h3 {
+  color: #b09a81;
+
+  background: #fff;
+}
+
+.detail-sections.light .pre-header {
+  color: #908d8b;
+}
+
+.detail-sections.dark .pre-header {
+  color: #d7ccc0;
 }

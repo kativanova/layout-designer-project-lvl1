@@ -148,8 +148,8 @@ section {
 }
 
 .btn {
-  padding: 12px 24px;
   display: inline-block;
+  padding: 12px 24px;
 
   font-weight: bolder;
   text-decoration: none;
@@ -236,6 +236,7 @@ section {
 
 .detail-sections.light .section-header h2 {
   margin-bottom: 30px;
+
   color: #2a2626;
 }
 

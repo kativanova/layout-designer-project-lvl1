@@ -94,7 +94,7 @@ section {
   width: 100%;
   height: 100%;
 
-  background-image: url(../../images/background.png);
+  background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 10%;
@@ -218,8 +218,9 @@ section {
   font: 64px/1em "Neucha", cursive;
 }
 
-.navigation h3 {
+.navigation h3 a {
   color: #fe8a02;
+  text-decoration: none;
 }
 
 .pre-header {
@@ -341,7 +342,7 @@ section {
   height: 24px;
   margin: 0;
 
-  background-image: url(../../images/send.svg);
+  background-image: url(../images/send.svg);
   background-repeat: no-repeat;
 
   content: " ";
@@ -354,7 +355,7 @@ section {
   font-size: 12px;
 }
 
-.agreement a {
+.agreement .rules {
   color: #fff;
 }
 
@@ -366,7 +367,7 @@ section {
   text-align: center;
 }
 
-.contact-info a {
+.reference {
   color: #1085c5;
 }
 

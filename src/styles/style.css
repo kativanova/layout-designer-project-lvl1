@@ -66,11 +66,6 @@ h3 {
   font-size: 34px;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 header,
 section {
   position: relative;
@@ -131,22 +126,16 @@ section {
 }
 
 .columns-2 {
-  column-count: 2;
-  column-gap: 30px;
-}
-
-.columns-2 .right-column p,
-.columns-2 .left-column p {
-  margin-top: 0;
-}
-
-.column-breake {
-  break-after: column;
+  display: flex;
 }
 
 .left-column,
 .right-column {
-  break-inside: avoid;
+  width: 50%
+}
+
+.left-column, .section-header {
+  margin-left: 30px;
 }
 
 .description {
@@ -226,7 +215,7 @@ section {
 .pre-header {
   margin: 0;
 
-  font: 24px/1em "Neucha", cursive;
+  font: 24px/1.6em "Neucha", cursive;
 }
 
 .section-description {
@@ -235,7 +224,7 @@ section {
   font: 34px/1.2em "Neucha", cursive;
 }
 
-.section-image {
+.section-image img {
   vertical-align: middle;
 }
 
@@ -249,7 +238,7 @@ section {
 
 .detail-sections h3 {
   margin-top: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding: 5px 10px;
 
   font: bold 14px/1.2em "Open Sans", sans-serif;

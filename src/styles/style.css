@@ -274,3 +274,102 @@ section {
 .detail-sections.dark .pre-header {
   color: #d7ccc0;
 }
+
+.subsribtion-from {
+  display: flex;
+
+  color: #fff;
+}
+
+.call-for-action {
+  width: 50%;
+  margin: auto;
+  padding: 55px;
+}
+
+.call-for-action .inner-text {
+  margin: 0;
+
+  font: 34px/1.2em "Neucha", cursive;
+}
+
+.input-field {
+  display: flex;
+  width: 50%;
+  padding: 55px 40px;
+}
+
+.input-field form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subsribtion-from input {
+  box-sizing: border-box;
+  width: 423px;
+  height: 50px;
+  padding: 15px;
+}
+
+.subsribtion-from label {
+  width: 100%;
+}
+
+.input-with-button {
+  position: relative;
+
+  width: 100%;
+}
+
+.subsribtion-from button {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 50px;
+  border: none;
+
+  background-color: #fe8a02;
+}
+
+.subsribtion-from button::before {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+
+  background-image: url(../../images/send.svg);
+  background-repeat: no-repeat;
+
+  content: " ";
+}
+
+.agreement {
+  width: 100%;
+  margin: 0;
+
+  font-size: 12px;
+}
+
+.agreement a {
+  color: #fff;
+}
+
+.contact-info {
+  margin-top: 60px;
+
+  font-size: 14px;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.contact-info a {
+  color: #1085c5;
+}
+
+.empty-block {
+  height: 1000px;
+}
